@@ -1,0 +1,154 @@
+body{
+    font-family: 'Bree Serif', serif;
+    background-color: #C14040;
+    font-size: 1.2rem;
+}
+
+.navbar{
+    border-radius: 20px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.nav-link-color{
+    color: #C14040 !important;
+    font-size: 1.1rem;
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+}
+
+@media (min-width: 990px){
+    .container_flex{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 991px){
+
+    .container_flex{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+.card{
+    background-color: #982C2C;
+    border-radius: 5%;
+    padding: 1rem;
+    width: 22.5rem;
+    margin-top: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.page_title{
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+}
+
+.card_details{
+    text-align: left;
+    background-color: #982C2C;
+    border-radius: 5%;
+    padding: 1rem;
+    width: 30rem;
+    margin-top: 1rem;
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+}
+
+.badge{
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+}
+
+.card_details-title{
+    margin-bottom: 1rem;
+
+}
+
+.container_card_details{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+.card_details-statistics{
+    margin: 0.5rem 0rem;
+}
+
+.card_details-list{
+    list-style: none;
+    width: 30%;
+    font-weight: 1.5rem;
+}
+
+.card_details-value{
+    width: 15%;
+    font-weight: 1.5rem;
+}
+
+.progress{
+    width: 55%;
+    height: 1.5rem;
+    border-radius: 5px;
+    background-color:  #632B2B;
+    color: white;
+}
+
+.progress-bar{
+    background-color: white;
+    color: #632B2B;
+}
+
+.details_nav{
+    margin-bottom: 3rem;
+    width: 20rem;
+    margin: auto;
+    text-align: center;
+}
+
+.details_nav_list{
+    list-style: none;
+}
+
+.badge_type_list,
+.details_nav_list--item{
+    color: white;
+}
+
+.container_type_list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.badge_type_list{
+    padding: 1rem 0rem;
+    border-radius: 5px;
+    width: 30%;
+    margin-top: 0.75rem;
+    text-align: center;
+}
+
+.picture404{
+    width: 100%;
+}
