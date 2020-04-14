@@ -7,21 +7,21 @@ use Illuminate\Database\Eloquent\Model;
 class Pokemon extends Model
 {
     /**
-     * The table associated with the model.
+     * Association de la table avec le Model
      *
      * @var string
      */
     protected $table = 'pokemon';
 
     /**
-     * The primary key associated with the table.
+     * La clé primaire associé avec la table
      *
      * @var string
      */
     protected $primaryKey = 'numero';
 
     /**
-     * Get all related pokemon_type
+     * Avoir les relation avec pokemon_type
      */
     public function type()
     {

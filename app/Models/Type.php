@@ -7,14 +7,14 @@ use Illuminate\Database\Eloquent\Model;
 class Type extends Model
 {
     /**
-     * The table associated with the model.
+     * Association de la table avec le Model
      *
      * @var string
      */
     protected $table = 'type';
 
     /**
-     * Get all related pokemon_type
+     * Avoir les relation avec pokemon_type
      */
     public function pokemon()
     {

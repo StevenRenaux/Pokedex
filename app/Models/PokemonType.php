@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Relations\Pivot;
 class PokemonType extends Pivot
 {
     /**
-     * The table associated with the model.
+     * Association de la table avec le Model
      *
      * @var string
      */

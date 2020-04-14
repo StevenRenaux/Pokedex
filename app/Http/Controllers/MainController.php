@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use Laravel\Lumen\Routing\Controller as BaseController;
 use App\Models\Pokemon;
 
-class MainController extends Controller
+class MainController extends BaseController
 {
     /**
      * HTTP method: GET
