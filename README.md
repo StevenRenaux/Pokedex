@@ -11,6 +11,6 @@ La BDD n'est pas configurée comme le souhaite lumen de manière volontaire pour
 ### Inclus dans le dossier docs
 
 - Les images de chaque pages une fois fini
-- Les relations avec Mocodo
+- Le MCD
 - Les routes
 - L'import des tables pour mysql
